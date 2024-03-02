@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png">
+    <title>Breaking Bad - Qué comience el juego!</title>
+    <Link rel="stylesheet" href="style.css">
+</head>
+<body class="formulario">
+    <h1 id="TituloFormulario">Breaking Bad - Qué comience el juego!</h1>
+    <form action="raul.rodriguez@proeducaglobal.com" method="post">
+            <p></p><label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            <p></p><label for="apellidos">Apellidos:</label>
+                <input type="text" id="apellidos" name="apellidos" required>
+            <p></p><label for="direccion">Dirección Postal:</label>
+                <input type="text" id="direccion" name="direccion" placeholder="Calle, Número, Piso, Código Postal, Ciudad" required>
+            <p></p><label for="dni">DNI:</label>
+                <input type="text" id="dni" name="dni">
+            <p></p> <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+            <p></p><label>Sexo:</label>
+                <input type="radio" id="hombre" name="sexo" value="hombre" required>
+                <label for="hombre">Hombre</label>
+                <input type="radio" id="mujer" name="sexo" value="mujer" required>
+                <label for="mujer">Mujer</label>
+            <p></p><label for="fecha_nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" required>
+            <p></p> <label for="personajes">Selecciona un personaje:</label>
+                <select id="personajes" name="personajes">
+                  <option value="Jessie Pinkman">Jessie Pinkman</option>
+                  <option value="Walter White">Walter White</option>
+                  <option value="Saul Goodman">Saul Goodman</option>
+                  <option value="Gustavo Fring">Gustavo Fring</option>
+                  <option value="Pollos Hermanos">Pollos Hermanos</option>
+                  <option value="Otros personajes">Otros personajes</option>
+                </select>
+    
+        
+        <p></p><label for="comentarios">Comentarios:</label>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+    
+        
+        <p></p><button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+        <p></p><input type="file" name="archivos" accept=".pdf, .doc, .docx">
+    </table>
+    </form>
+
+</body>
+</html>

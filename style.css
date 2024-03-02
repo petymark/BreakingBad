@@ -1,0 +1,156 @@
+body {
+    background-color: #0c3e11;
+}
+
+
+
+@font-face{
+    font-family: "BreakingBad";
+    src:url("fonts/Breaking\ Bad.ttf") format("truetype");
+}
+
+.indexbb{
+    background-image: url("IMG/fondo.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.borde-poster {
+    Border: 10px outset brown; 
+    border-radius: 22px;
+
+    position: absolute;
+    top: 400px;
+}
+.slogan {
+    position: absolute;
+    top: 250px;
+
+    font-family: "BreakingBad"
+}
+
+
+
+
+
+.formulario {
+    background-image: url("IMG/fondo.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Helvetica;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+
+
+
+
+
+
+#tabla1 {
+    background-color: #2b2c24;
+    text-align: center;
+    font-size: 14px;
+    font-family: Helvetica;
+    padding: 0;
+}
+
+#tabla2 {
+    background-color: #000000;
+    font-size: 14px;
+
+
+}
+
+p {
+    font-size: 10px;
+    vertical-align: bottom;
+}
+
+
+tr,td {
+    Border: 3px solid #2b2c24;
+    border-style: solid;
+    width: 80px;
+    height: 75px;
+    font-family: Helvetica;
+    padding: 0;
+}
+
+.cas1 {
+    background-color: #b8db1dea;
+}
+
+.cas2 {
+    background-color: #c4e24be8;
+}
+
+.cas3 {
+    background-color: #ffffff;
+}
+
+.cas4 {
+    background-color: #95ac3c;
+}
+
+.cas5 {
+    background-color: #6d7c2b;
+}
+
+.cas6 {
+    background-color: #c9ccbc;
+}
+
+.cas7 {
+    background-color: #788152;
+}
+
+.cas8 {
+    background-color: #dbeb95;
+}
+
+#marie {
+    background-color: #ad8fcf;
+}
+
+.t2 {
+    background-color: #dae024;
+    text-align: center;
+}
+
+#i1 {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.i2 {
+    height: 40px;
+    border-color: #000000;
+}
+
+
+
+
+
+.form {
+    position: relative;
+    left: 10%;
+    font-size: 14px;
+    margin: auto;
+    display: block;
+}
+
+#fieldset {
+    display: block;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-top: 5%;
+    border-radius: 15px;
+
+}
